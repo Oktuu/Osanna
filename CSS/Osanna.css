@@ -1,0 +1,173 @@
+body {
+	margin: 0px;
+	color: white;
+	background: black;
+}
+.center {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+header {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	font-family: sans-serif;
+}
+.logo {
+	display: flex;
+	margin-top: 5px;
+	font-size: 15px;
+}
+.logo img {
+	width: 64px;
+	height: 64px;
+	margin-top: 20px;
+}
+.logo span {
+	font-size: 43px;
+}
+.logo p {
+	margin-left: 5px;
+}
+nav {
+	margin-top: 15px;
+	display: flex;
+	font-size: 15px;
+	margin-left: 40px;
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+.menu a {
+	color: white;
+	margin-right: 20px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.media {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.media img {
+	width: 30px;
+	height: 30px;
+}
+.hero1 {
+	background: black;
+	margin-top: 60px;
+	text-align: center;
+	font-size: 22px;
+	padding-bottom: 165px;
+	font-family: sans-serif;
+	padding-bottom: 195px;
+}
+h1 {
+	background-color: black;
+	font-size: 55px;
+}
+.hero1 p {
+	padding-top: 20px;
+	margin-bottom: 55px;
+}
+.more {
+	padding-bottom: 63px;
+}
+hr {
+	background: white;
+	margin-top: 0px;
+	width: 175px;
+	height: 1.25px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.hero2 {
+	background-image: url("http://master-branch.co/img/lviv.png");
+	background-repeat: no-repeat;
+	font-size: 40px;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 190px;
+	padding-top: 10px;
+	
+}
+.links {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	font-size: 25px;
+}
+h2 {
+	padding-top: 120px;
+	font-family: sans-serif;
+}
+.icon {
+	border-radius: 100px;
+	border: 3px solid black;
+	opacity: 0.75;
+}
+.us {
+	width: 85px;
+}
+.Hall {
+	width: 135px;
+}
+.Text {
+	margin-top: 15px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.hero3 {
+	background-image: url("http://www.accac.net/compartit/magatzem/slidesportada/1496397948_Slide_Catalunya_ang_fr.jpg");
+	padding-top: 5px;
+	background-repeat: no-repeat;
+	padding-bottom: 170px;
+	text-align: center;
+	font-size: 40px;
+}
+.groups {
+	width: 165px;
+}
+.serving {
+	width: 100px;
+}
+.hero4 {
+	background-image: url("http://www.niteko.com/wp-content/uploads/2017/05/garanzia-header.jpg");
+	background-repeat: no-repeat;
+	padding-top: 60px;
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 175px;
+}
+.hero4 h2 {
+	margin-top: 49px;
+	padding-top: 60px;
+}
+.sermons {
+	width: 105px;
+}
+.news {
+	width: 80px;
+}
+.hero5 {
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 150px;
+}
+.hero5 ul {
+	display:flex;
+	justify-content: center;
+	list-style: none;
+	padding-bottom: 50px;
+}
+.hero5 li {
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.foot {
+	font-size: 60px;
+}
